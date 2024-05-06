@@ -35,29 +35,3 @@ class CourseHomeViewModel {
         }
     }
 }
-
-
-class CourseHomeViewModelClosure {
-    
-    private let dataLoader: DataLoaderProtocol
-    
-    var onDataUpdate: (([CategoryModel]) -> Void)?
-    var onError: ((APIError) -> Void)?
-    
-    init(courseLoader: DataLoaderProtocol) {
-        self.dataLoader = courseLoader
-    }
-    
-    func loadData() {
-        dataLoader.loadData(fileName: "data") { (result: Result<RootModel, DataServieError>) in
-            switch result {
-            case .success(let rootData):
-                
-                self.onDataUpdate?(rootData.data ?? [])
-
-            case .failure(let error):
-                print("CourseHomeViewModelClosure", error.localizedDescription)
-            }
-        }
-    }
-}

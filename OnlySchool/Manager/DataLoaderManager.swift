@@ -11,10 +11,10 @@ class DataLoaderManager: DataLoaderProtocol {
     
     private let fileName: String = ""
     
-    func loadData<T>(fileName: String, completion: @escaping (Result<T, APIError>) -> Void) where T : Decodable {
+    func loadData<T>(fileName: String, completion: @escaping (Result<T, DataServieError>) -> Void) where T : Decodable {
         
         guard let path = Bundle.main.url(forResource: fileName, withExtension: "json") else {
-            completion(.failure(.invalidData))
+            completion(.failure(.pathError))
             return
         }
         
@@ -23,7 +23,7 @@ class DataLoaderManager: DataLoaderProtocol {
             let decoderes = try JSONDecoder().decode(T.self, from: data)
             completion(.success(decoderes))
         } catch {
-            completion(.failure(.jsonParsingFailure))
+            completion(.failure(.dataFailed))
         }
     }
     
@@ -31,7 +31,7 @@ class DataLoaderManager: DataLoaderProtocol {
     func loadDataAsync<T>(fileName: String) async throws -> T where T : Decodable {
         
         guard let path = Bundle.main.url(forResource: fileName, withExtension: "json") else {
-            throw APIError.invalidData
+            throw DataServieError.pathError
         }
         
         do {
@@ -39,7 +39,7 @@ class DataLoaderManager: DataLoaderProtocol {
             let decoderes = try JSONDecoder().decode(T.self, from: data)
             return decoderes
         } catch {
-            throw APIError.jsonParsingFailure
+            throw DataServieError.dataFailed
         }
     }
     

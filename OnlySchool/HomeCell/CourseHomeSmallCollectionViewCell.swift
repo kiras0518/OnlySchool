@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class CourseHomeSmallCollectionViewCell: UICollectionViewCell {
 
@@ -21,9 +22,17 @@ class CourseHomeSmallCollectionViewCell: UICollectionViewCell {
         setupView()
     }
 
+    func configure(model: CoursesModel?) {
+        titleLabel.text = model?.title
+        detailLabel.text = model?.name
+        let url = URL(string: model?.coverImageUrl ?? "")
+        imageView.kf.setImage(with: url, options: [.transition(.fade(0.2))])
+    }
+    
     func setupView() {
+        imageView.contentMode = .scaleToFill
         imageView.clipsToBounds = true
-        imageView.layer.cornerRadius = 8
+        imageView.layer.cornerRadius = 16
         
         titleLabel.font = .systemFont(ofSize: 20)
         titleLabel.textColor = .black
@@ -36,12 +45,3 @@ class CourseHomeSmallCollectionViewCell: UICollectionViewCell {
         detailLabel.text = " "
     }
 }
-
-//static let g_xlFont: UIFont = .systemFont(ofSize: 20)
-//static let g_lFont: UIFont = .systemFont(ofSize: 15)
-//static let g_mFont: UIFont = .systemFont(ofSize: 13)
-
-//static let g_blackColor: UIColor = .black
-//static let g_grayColor: UIColor = .gray
-//static let g_backgroundColor: UIColor = .white
-//static let g_lightGrayColor: UIColor = .lightGray

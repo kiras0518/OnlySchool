@@ -16,6 +16,25 @@
 		EE0AE1D42BCD667000DDE267 /* OnlySchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0AE1D32BCD667000DDE267 /* OnlySchoolTests.swift */; };
 		EE0AE1DE2BCD667000DDE267 /* OnlySchoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0AE1DD2BCD667000DDE267 /* OnlySchoolUITests.swift */; };
 		EE0AE1E02BCD667000DDE267 /* OnlySchoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0AE1DF2BCD667000DDE267 /* OnlySchoolUITestsLaunchTests.swift */; };
+		EE0AE1ED2BCD670000DDE267 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = EE0AE1EC2BCD670000DDE267 /* data.json */; };
+		EE0AE1EF2BCD68AD00DDE267 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0AE1EE2BCD68AD00DDE267 /* CourseModel.swift */; };
+		EE0AE1F12BCD6F7900DDE267 /* DataLoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0AE1F02BCD6F7900DDE267 /* DataLoaderProtocol.swift */; };
+		EE2145ED2BD3F315006F2DFD /* DataLoaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2145EC2BD3F315006F2DFD /* DataLoaderManager.swift */; };
+		EE2145EF2BD3F35C006F2DFD /* ErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2145EE2BD3F35C006F2DFD /* ErrorHelper.swift */; };
+		EE2145F22BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2145F02BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.swift */; };
+		EE2145F32BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2145F02BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.swift */; };
+		EE2145F42BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2145F12BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.xib */; };
+		EE2145F52BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2145F12BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.xib */; };
+		EE2145F82BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2145F62BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.swift */; };
+		EE2145F92BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2145F62BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.swift */; };
+		EE2145FA2BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2145F72BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.xib */; };
+		EE2145FB2BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2145F72BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.xib */; };
+		EE2145FE2BD4043C006F2DFD /* CourseHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2145FD2BD4043C006F2DFD /* CourseHomeViewModel.swift */; };
+		EE2145FF2BD4043C006F2DFD /* CourseHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2145FD2BD4043C006F2DFD /* CourseHomeViewModel.swift */; };
+		EE2146012BD4057A006F2DFD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2146002BD4057A006F2DFD /* HomeViewController.swift */; };
+		EE2146022BD4057A006F2DFD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2146002BD4057A006F2DFD /* HomeViewController.swift */; };
+		EE2AEE892BD80F100031E1A4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = EE2AEE882BD80F100031E1A4 /* Kingfisher */; };
+		EEB332F32BDE320D00A52941 /* BaseCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB332F22BDE320D00A52941 /* BaseCollectionHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +68,18 @@
 		EE0AE1D92BCD667000DDE267 /* OnlySchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlySchoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0AE1DD2BCD667000DDE267 /* OnlySchoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlySchoolUITests.swift; sourceTree = "<group>"; };
 		EE0AE1DF2BCD667000DDE267 /* OnlySchoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlySchoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE0AE1EC2BCD670000DDE267 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		EE0AE1EE2BCD68AD00DDE267 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
+		EE0AE1F02BCD6F7900DDE267 /* DataLoaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoaderProtocol.swift; sourceTree = "<group>"; };
+		EE2145EC2BD3F315006F2DFD /* DataLoaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoaderManager.swift; sourceTree = "<group>"; };
+		EE2145EE2BD3F35C006F2DFD /* ErrorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHelper.swift; sourceTree = "<group>"; };
+		EE2145F02BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseHomeBigCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE2145F12BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseHomeBigCollectionViewCell.xib; sourceTree = "<group>"; };
+		EE2145F62BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseHomeSmallCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE2145F72BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseHomeSmallCollectionViewCell.xib; sourceTree = "<group>"; };
+		EE2145FD2BD4043C006F2DFD /* CourseHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseHomeViewModel.swift; sourceTree = "<group>"; };
+		EE2146002BD4057A006F2DFD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EEB332F22BDE320D00A52941 /* BaseCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2AEE892BD80F100031E1A4 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,9 +134,18 @@
 				EE0AE1BC2BCD666E00DDE267 /* AppDelegate.swift */,
 				EE0AE1BE2BCD666E00DDE267 /* SceneDelegate.swift */,
 				EE0AE1C02BCD666E00DDE267 /* ViewController.swift */,
+				EE2146002BD4057A006F2DFD /* HomeViewController.swift */,
+				EE0AE1F02BCD6F7900DDE267 /* DataLoaderProtocol.swift */,
+				EED7D2B22BE90E5800EFA519 /* ViewMode */,
+				EED7D2B12BE90E4E00EFA519 /* Model */,
+				EED7D2B02BE9098500EFA519 /* Manager */,
+				EE2145EE2BD3F35C006F2DFD /* ErrorHelper.swift */,
+				EED7D2AC2BE9091A00EFA519 /* View */,
+				EE2145FC2BD4040A006F2DFD /* HomeCell */,
 				EE0AE1C22BCD666E00DDE267 /* Main.storyboard */,
 				EE0AE1C52BCD667000DDE267 /* Assets.xcassets */,
 				EE0AE1C72BCD667000DDE267 /* LaunchScreen.storyboard */,
+				EE0AE1EC2BCD670000DDE267 /* data.json */,
 				EE0AE1CA2BCD667000DDE267 /* Info.plist */,
 			);
 			path = OnlySchool;
@@ -127,6 +168,49 @@
 			path = OnlySchoolUITests;
 			sourceTree = "<group>";
 		};
+		EE2145FC2BD4040A006F2DFD /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				EE2145F02BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.swift */,
+				EE2145F12BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.xib */,
+				EE2145F62BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.swift */,
+				EE2145F72BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		EED7D2AC2BE9091A00EFA519 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB332F22BDE320D00A52941 /* BaseCollectionHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EED7D2B02BE9098500EFA519 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EE2145EC2BD3F315006F2DFD /* DataLoaderManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EED7D2B12BE90E4E00EFA519 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE0AE1EE2BCD68AD00DDE267 /* CourseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EED7D2B22BE90E5800EFA519 /* ViewMode */ = {
+			isa = PBXGroup;
+			children = (
+				EE2145FD2BD4043C006F2DFD /* CourseHomeViewModel.swift */,
+			);
+			path = ViewMode;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +227,9 @@
 			dependencies = (
 			);
 			name = OnlySchool;
+			packageProductDependencies = (
+				EE2AEE882BD80F100031E1A4 /* Kingfisher */,
+			);
 			productName = OnlySchool;
 			productReference = EE0AE1B92BCD666E00DDE267 /* OnlySchool.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +302,9 @@
 				Base,
 			);
 			mainGroup = EE0AE1B02BCD666E00DDE267;
+			packageReferences = (
+				EE2AEE872BD80F100031E1A4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = EE0AE1BA2BCD666E00DDE267 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +321,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2145F42BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.xib in Resources */,
 				EE0AE1C92BCD667000DDE267 /* LaunchScreen.storyboard in Resources */,
 				EE0AE1C62BCD667000DDE267 /* Assets.xcassets in Resources */,
 				EE0AE1C42BCD666E00DDE267 /* Main.storyboard in Resources */,
+				EE2145FA2BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.xib in Resources */,
+				EE0AE1ED2BCD670000DDE267 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +334,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2145FB2BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.xib in Resources */,
+				EE2145F52BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +353,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2145FE2BD4043C006F2DFD /* CourseHomeViewModel.swift in Sources */,
+				EE0AE1F12BCD6F7900DDE267 /* DataLoaderProtocol.swift in Sources */,
 				EE0AE1C12BCD666E00DDE267 /* ViewController.swift in Sources */,
 				EE0AE1BD2BCD666E00DDE267 /* AppDelegate.swift in Sources */,
+				EE2145F22BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.swift in Sources */,
+				EE0AE1EF2BCD68AD00DDE267 /* CourseModel.swift in Sources */,
+				EE2145EF2BD3F35C006F2DFD /* ErrorHelper.swift in Sources */,
+				EE2146012BD4057A006F2DFD /* HomeViewController.swift in Sources */,
+				EEB332F32BDE320D00A52941 /* BaseCollectionHeaderView.swift in Sources */,
+				EE2145ED2BD3F315006F2DFD /* DataLoaderManager.swift in Sources */,
+				EE2145F82BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.swift in Sources */,
 				EE0AE1BF2BCD666E00DDE267 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +372,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2146022BD4057A006F2DFD /* HomeViewController.swift in Sources */,
 				EE0AE1D42BCD667000DDE267 /* OnlySchoolTests.swift in Sources */,
+				EE2145F92BD3FEAD006F2DFD /* CourseHomeSmallCollectionViewCell.swift in Sources */,
+				EE2145FF2BD4043C006F2DFD /* CourseHomeViewModel.swift in Sources */,
+				EE2145F32BD3FC5A006F2DFD /* CourseHomeBigCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -445,6 +553,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +582,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,6 +712,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE2AEE872BD80F100031E1A4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE2AEE882BD80F100031E1A4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2AEE872BD80F100031E1A4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE0AE1B12BCD666E00DDE267 /* Project object */;
 }
